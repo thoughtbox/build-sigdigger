@@ -1,0 +1,10 @@
+The include
+  #include <inttypes.h>
+
+is required in the following files,
+  suscan/cli/cmd/devices.c
+  suscan/cli/cli.c
+
+because:
+  devices.c uses PRIX64
+  cli.c uses SCNx64
